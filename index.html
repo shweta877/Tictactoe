@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <h1>
+            Welcome to the Game
+        </h1>
+        <h2 id="player">lets play</h2>
+        <table>
+            <tr>
+                <td id="cell1" onclick="main('1')"></td>
+                <td id="cell2" onclick="main('2')"></td>
+                <td id="cell3" onclick="main('3')"></td>
+            </tr>
+            <tr>
+                <td id="cell4" onclick="main('4')"></td>
+                <td id="cell5" onclick="main('5')"></td>
+                <td id="cell6" onclick="main('6')"></td>
+            </tr>
+            <tr>
+                <td id="cell7" onclick="main('7')"></td>
+                <td id="cell8" onclick="main('8')"></td>
+                <td id="cell9" onclick="main('9')"></td>
+            </tr>
+        </table>
+        <input type="button" name="btn1" id="btn1" value="play again" onclick="window.location.reload(true)">
+       
+        <h2 id="Result"></h2>
+    </body>
+</html>
